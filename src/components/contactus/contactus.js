@@ -11,7 +11,7 @@ export default class ContactUs extends Component {
                         <h3>Contact Me</h3>
                         <h1>Say Hello.</h1>
 
-                        
+
                     </div>
                 </div>
 
@@ -21,16 +21,16 @@ export default class ContactUs extends Component {
                             <fieldset>
 
                                 <div className="form-field">
-                                    <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="" aria-required="true" className="full-width" />
+                                    <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="" aria-required="true" className="full-width" required />
                                 </div>
                                 <div className="form-field">
-                                    <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="" aria-required="true" className="full-width" />
+                                    <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="" aria-required="true" className="full-width" required />
                                 </div>
                                 <div className="form-field">
-                                    <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" className="full-width" />
+                                    <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" className="full-width" required />
                                 </div>
                                 <div className="form-field">
-                                    <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required="" aria-required="true" className="full-width"></textarea>
+                                    <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required="" aria-required="true" className="full-width" required></textarea>
                                 </div>
                                 <div data-netlify-recaptcha></div>
                                 <div className="form-field">

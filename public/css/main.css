@@ -3263,8 +3263,8 @@ footer {
     font-size: 14px;
     padding: 6.6rem 0 4.2rem;
     text-align: center;
-    color: rgba(146, 12, 52, 0.2);
-    background-color: #3c3838;
+    color: rgba(202, 41, 90, 0.993);
+    background-color: #4d4848;
 }
 
 footer a, footer a:visited {
@@ -3402,7 +3402,7 @@ footer a:hover, footer a:focus {
 
 @media only screen and (max-width: 600px) {
     .footer-social li {
-        margin-right: 1.8rem;
+        margin-right: 1.5rem;
     }
     .footer-social li span, .footer-social li::after {
         display: none;
