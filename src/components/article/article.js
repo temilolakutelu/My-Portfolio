@@ -8,10 +8,8 @@ export default class Article extends Component {
                 <div className="row narrow section-intro has-bottom-sep">
                     <div className="col-full">
                         <h3>Journal</h3>
-                        <h1>Latest blog.</h1>
-                        <p className="lead">Lorem ipsum Dolor adipisicing nostrud et aute.
-                        Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum
-                ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>
+                        <h1>Latest Articles.</h1>
+                        <p className="lead">These are some of my Articles on Medium.</p>
                     </div>
                 </div>
 

@@ -52,7 +52,9 @@ export default class Footer extends Component {
                     </div>
 
                 </div>
-
+                <div className="go-top">
+                            <a className="smoothscroll" title="Back to Top" href="#top"><i className="im im-arrow-up" aria-hidden="true"></i></a>
+                </div>
             </footer>
         );
     }

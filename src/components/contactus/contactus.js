@@ -8,10 +8,10 @@ export default class ContactUs extends Component {
 
                 <div className="row narrow section-intro">
                     <div className="col-full">
-                        <h3>Contact</h3>
+                        <h3>Contact Me</h3>
                         <h1>Say Hello.</h1>
 
-                        <p className="lead">Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>
+                        
                     </div>
                 </div>
 

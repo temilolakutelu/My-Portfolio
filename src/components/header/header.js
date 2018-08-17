@@ -20,7 +20,7 @@ class Header extends Component {
                             <li class="current"><a class="smoothscroll" href="#home" title="home">Home</a></li>
                             <li><a class="smoothscroll" href="#about" title="about">About</a></li>
                             <li><a class="smoothscroll" href="#works" title="works">Works</a></li>
-                            <li><a class="smoothscroll" href="#blog" title="blog">Blog</a></li>
+                            <li><a class="smoothscroll" href="#blog" title="blog">Articles</a></li>
                             <li><a class="smoothscroll" href="#contact" title="contact">Contact</a></li>
                         </ul>
                     </nav>
@@ -45,7 +45,7 @@ class Header extends Component {
                             <h3>Hello There</h3>
 
                             <h1>
-                                I am Temilola Kutelu. <br /> A Software Developer & <br />  an IT Support Engineer.
+                                I am Temilola Kutelu. <br /> A Software Developer & <br />  IT Support Engineer.
                             </h1>
 
                             <div className="home-content__buttons">

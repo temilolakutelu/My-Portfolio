@@ -10,7 +10,7 @@ export default class Portfolio extends Component {
                         <h3>Portfolio</h3>
                         <h1>See Some of my Projects.</h1>
 
-                        <p className="lead">Lorem ipsum Dolor adipisicing nostrud et aute Excepteur amet commodo ea dolore irure esse Duis nulla sint fugiat cillum ullamco proident aliquip quis qui voluptate dolore veniam Ut laborum non est in officia.</p>
+                        <p className="lead">Here are some of the projects designed and developed by me.</p>
                     </div>
                 </div>
 
@@ -29,7 +29,7 @@ export default class Portfolio extends Component {
                                 </div>
 
                                 <div className="item-folio__text">
-                                    <h3 className="item-folio__title">Job Site Home Page</h3>
+                                    <h3 className="item-folio__title">Job Site HomePage</h3>
                                     <p className="item-folio__cat">Web Design</p>
                                 </div>
 
