@@ -2350,6 +2350,7 @@ html.no-csstransitions .home-content__main {
     vertical-align: top;
     -webkit-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
+    height:300px;
 }
 
 .item-folio__thumb .shadow-overlay {
@@ -3262,11 +3263,12 @@ footer {
     font-size: 14px;
     padding: 6.6rem 0 4.2rem;
     text-align: center;
-    color: rgba(255, 255, 255, 0.2);
+    color: rgba(146, 12, 52, 0.2);
+    background-color: #3c3838;
 }
 
 footer a, footer a:visited {
-    color: #862121;
+    color:#b72a72;
 }
 
 footer a:hover, footer a:focus {

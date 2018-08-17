@@ -17,7 +17,7 @@ export default class ContactUs extends Component {
 
                 <div className="row contact__main">
                     <div className="col-eight tab-full contact__form">
-                        <form name="contactForm" id="contactForm" method="post" action="">
+                        <form name="contactForm" id="contactForm" method="POST" type="file" action="" data-netlify="true">
                             <fieldset>
 
                                 <div className="form-field">
@@ -32,6 +32,7 @@ export default class ContactUs extends Component {
                                 <div className="form-field">
                                     <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50" required="" aria-required="true" className="full-width"></textarea>
                                 </div>
+                                <div data-netlify-recaptcha></div>
                                 <div className="form-field">
                                     <button className="full-width btn--primary">Submit</button>
                                     <div className="submit-loader">
