@@ -2560,7 +2560,20 @@ html.no-csstransitions .home-content__main {
 
 @media only screen and (max-width: 400px) {
     .masonry-wrap {
+        margin: 0;
+        padding: 0;
         width: auto;
+      
+    }
+    .masonry .grid-sizer, .masonry__brick {
+           width: 285px;
+            height: 280px;
+    }
+}
+@media only screen and (max-width: 300px) {
+    .masonry .grid-sizer, .masonry__brick {
+           width: 265px;
+          
     }
 }
 
